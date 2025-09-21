@@ -82,5 +82,5 @@ func main() {
 		}
 	}
 
-	fmt.Printf("Quiz completed. %d out of %d correct answers.", correctAnswers, len(quiz.Questions))
+	fmt.Printf("Quiz completed. %d out of %d correct answers.\n", correctAnswers, len(quiz.Questions))
 }
